@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-style: solid;
+    border-color: #2DCDF3;
+    border-width: 0.125rem;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+body {
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0) 20%,
+            rgb(0, 0, 0) 55%), url(../images/gragas_embalos_opacidade.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.header-cont {
+    display: contents;
+    align-items: center;
+    background-color: black;
+}
+
+.header-img {
+    width: 100px;
+}
+
+.header-text {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: -42%;
+    color: white;
+    font-size: 40px;
+}
+
+.menu {
+    margin: 0px 10px 0px 0px;
+    color: white;
+}
+
+.btn {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
+    background: transparent;
+    border: none;
+    padding: 1em 0.5em;
+    color: #ffedd3;
+    text-transform: uppercase;
+    position: relative;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #2DCDF3;
+    transition: 0.5s ease;
+}
+
+.btn:hover::before {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.menu button a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.skins-titulo {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    margin: 2rem;
+}
+
+.skins-sub {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #2DCDF3;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: -2rem;
+    margin-bottom: none;
+}
+
+.skins {
+    display: block;
+    margin-left: 4.5%;
+    margin-right: none;
+}
+
+.skins-imagens1,
+.skins-imagens2,
+.skins-imagens3,
+.skins-imagens4,
+.skins-imagens5,
+.skins-imagens6,
+.skins-imagens7,
+.skins-imagens8,
+.skins-imagens9,
+.skins-imagens10,
+.skins-imagens11,
+.skins-imagens12,
+.skins-imagens13,
+.skins-imagens14 {
+    border-radius: 25px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.250rem;
+    margin: 1%;
+}
+
+.skins-imagens2 {
+    filter: grayscale(100%);
+}
+
+.skins-imagens4 {
+    filter: grayscale(100%);
+}
+
+.skins-imagens6 {
+    filter: grayscale(100%);
+}
+
+.skins-imagens12 {
+    filter: grayscale(100%);
+}
+
+.skins-imagens13 {
+    filter: grayscale(100%);
+}
+
+.skins-imagens14 {
+    filter: grayscale(100%);
+}
+
+.skins-imagens1 {
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+.skins-imagens1:hover {
+    transform: scale(1.1);
+}
+
+.skins-imagens3 {
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+.skins-imagens3:hover {
+    transform: scale(1.1);
+}
+
+.skins-imagens5 {
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+.skins-imagens5:hover {
+    transform: scale(1.1);
+}
+
+.skins-imagens7 {
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+.skins-imagens7:hover {
+    transform: scale(1.1);
+}
+
+.skins-imagens8 {
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+.skins-imagens8:hover {
+    transform: scale(1.1);
+}
+
+.skins-imagens9 {
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+.skins-imagens9:hover {
+    transform: scale(1.1);
+}
+
+.skins-imagens10 {
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+.skins-imagens10:hover {
+    transform: scale(1.1);
+}
+
+.skins-imagens11 {
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+.skins-imagens11:hover {
+    transform: scale(1.1);
+}
