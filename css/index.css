@@ -135,7 +135,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
+    /* cursor: pointer; */
     color: #ffff;
     gap: 10px;
     font-weight: bold;
@@ -149,6 +149,10 @@ a {
     width: 24px;
     height: 24px;
     transition: all 0.3s ease-in-out;
+}
+
+.entender-text:hover {
+    cursor: pointer;
 }
 
 .entender:hover {
