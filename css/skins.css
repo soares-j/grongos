@@ -137,7 +137,8 @@ a {
 .skins-imagens11,
 .skins-imagens12,
 .skins-imagens13,
-.skins-imagens14 {
+.skins-imagens14,
+.skins-imagens15 {
     border-radius: 25px;
     border-style: solid;
     border-color: white;
@@ -238,5 +239,14 @@ a {
 }
 
 .skins-imagens11:hover {
+    transform: scale(1.1);
+}
+
+.skins-imagens15 {
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+.skins-imagens15:hover {
     transform: scale(1.1);
 }
